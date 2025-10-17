@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<info>
+    <id>tempapp</id>
+    <name>TempUser File System</name>
+    <description>Create temporary users and files with expiration</description>
+    <version>1.0.0</version>
+    <licence>AGPL</licence>
+    <author>YourName</author>
+    <namespace>OCA\TempApp</namespace>
+    <category>tools</category>
+    <dependencies>
+        <nextcloud min-version="26" max-version="26.99"/>
+    </dependencies>
+</info>

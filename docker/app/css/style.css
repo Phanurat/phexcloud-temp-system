@@ -1,0 +1,66 @@
+/* Reset some basic styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Container for upload form */
+.upload-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Form elements */
+.upload-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Input fields */
+.upload-container input[type="text"],
+.upload-container input[type="number"],
+.upload-container input[type="file"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 14px;
+    width: 100%;
+}
+
+/* Submit button */
+.upload-container input[type="submit"] {
+    padding: 12px;
+    background-color: #0078d4;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.upload-container input[type="submit"]:hover {
+    background-color: #005a9e;
+}
+
+/* Quota info / labels */
+.upload-container .info {
+    font-size: 13px;
+    color: #666;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .upload-container {
+        margin: 20px;
+        padding: 15px;
+    }
+}
